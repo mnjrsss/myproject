@@ -1,0 +1,13 @@
+git status  # to check the workspace status
+git add <new file or modified file>  # add new changs to stage area to be commit
+git commit -m '<descriptive message>'  # create a new version for the workspace 
+
+git branch <branch name> # it takes the current commit as the starting point 
+git branch <branch name> <starting point> # the starting point could be commit-id,branch name,or tag
+
+git branch -d <branch name> # delete the that is already merged in master
+git branch -D <branch name> # delete the branch in spite of it is not merged
+
+git checkout <branch name> # activate the branch
+git checkout -b <new branch name> # create a new branch with the current commit as starting point and activate it
+git checkout -b <new branch name> <starting point> # create a new branch with the starting point and activate it
